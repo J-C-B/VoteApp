@@ -61,7 +61,7 @@ resource "aws_security_group" "ingress-ssh-from-all" {
 }
 
 resource "aws_security_group" "ingress-ssh-add-more-bad" {
-  name   = "JB-allow-all-ssh-sg"
+  name   = "JB-allow-all-ssh-bad"
   vpc_id = aws_vpc.vpc.id
 
   ingress {
